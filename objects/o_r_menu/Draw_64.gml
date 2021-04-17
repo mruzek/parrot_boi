@@ -1,0 +1,1 @@
+draw_text(20, 50, text_intro);
