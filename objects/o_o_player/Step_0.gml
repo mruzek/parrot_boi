@@ -10,14 +10,24 @@ if (keyboard_check(KEY_DOWN) ) { //  && speed > 0 kinda check
 */
 
 speed = 0;
+var padding = 35;
 
 // TODO: multiple keys priority
-if (keyboard_check(vk_left) && (x > 30)) {
-        speed = -o_speed;
+if (keyboard_check(vk_left) && (x > padding)) {
+    speed = -o_speed;
+    
+    
+    if (!audio_is_playing(so_fikus_move)) {
+        audio_play_sound(so_fikus_move, 5, false)
+    }
 }
 
-if (keyboard_check(vk_right) && (x < 370)) {
-        speed = o_speed;
+if (keyboard_check(vk_right) && (x < 400 - padding)) {
+    speed = o_speed;
+    
+    if (!audio_is_playing(so_fikus_move)) {
+        audio_play_sound(so_fikus_move, 5, false)
+    }
 }
 
 /*

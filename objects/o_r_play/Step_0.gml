@@ -1,8 +1,8 @@
 if (lives <= 0) {
-    room_goto(r_menu);
+    room_goto(r_lose);
 }
     
-if (score >= 10) {
+if (score >= winscore) {
     room_goto(r_menu);
 }
 

@@ -103,6 +103,22 @@
             }
         },
         {
+            "Key": "2961e0a5-1245-489d-b147-14abe224e3ad",
+            "Value": {
+                "id": "88be50f5-0628-401d-b854-4c53caa079ce",
+                "resourcePath": "sounds\\so_robat_move\\so_robat_move.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "3d515aad-f553-4566-8c01-c5764f581b18",
+            "Value": {
+                "id": "96360cb0-e049-41f5-8ce5-ae859c0fa310",
+                "resourcePath": "sounds\\so_fikus_eat_1\\so_fikus_eat_1.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "3e14bf7c-4aaf-4c70-8065-a54f904cabb2",
             "Value": {
                 "id": "751e87ab-f93f-4eac-94e9-ec6557ca89d7",
@@ -119,11 +135,19 @@
             }
         },
         {
-            "Key": "55c3a1c8-a8ea-4d4d-b571-29cec987ad59",
+            "Key": "405a304e-8e82-4231-9eb5-d16686c57476",
             "Value": {
-                "id": "b2f41531-090d-49c8-8a4e-cda2f90e445e",
-                "resourcePath": "sprites\\sprite1\\sprite1.yy",
+                "id": "fd98e7da-fc8e-46e0-8772-9353e9ad1dc1",
+                "resourcePath": "sprites\\s_piskot\\s_piskot.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "51b6385e-4dd5-4b48-8990-d2d026fce97a",
+            "Value": {
+                "id": "50bf349e-6708-4fbb-9e94-d5c23fae901a",
+                "resourcePath": "sounds\\so_fikus_eat_3\\so_fikus_eat_3.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -151,6 +175,14 @@
             }
         },
         {
+            "Key": "87b415d3-82bb-4052-b6cb-69a83dd094f7",
+            "Value": {
+                "id": "f2aeec59-cc44-48a4-879f-49663679c3f0",
+                "resourcePath": "sounds\\so_fikus_move\\so_fikus_move.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "87c26776-6873-4897-a31c-fe5ae06eed55",
             "Value": {
                 "id": "51bae8d4-5ec3-46ef-b8f0-4e8451278e5a",
@@ -159,11 +191,27 @@
             }
         },
         {
+            "Key": "8a753394-cf7e-418d-a0db-98b53ea79c1c",
+            "Value": {
+                "id": "a6717a43-abcd-4708-9d37-0ab9deababfe",
+                "resourcePath": "objects\\o_r_lose\\o_r_lose.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a3072fbf-7f89-4f3c-ab94-9caaa2e66643",
             "Value": {
                 "id": "ea80c228-af85-4747-84db-81619d20e6d3",
                 "resourcePath": "objects\\o_g_game\\o_g_game.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "a5acd12e-10fa-405d-aae8-c4ea32c25b85",
+            "Value": {
+                "id": "be315386-ff02-4bc1-9cce-a186e5dfd152",
+                "resourcePath": "sprites\\s_fikus_back\\s_fikus_back.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -180,6 +228,14 @@
                 "id": "6c6fcc25-faf0-47ac-8ce7-3ca16aa0259d",
                 "resourcePath": "objects\\o_o_food\\o_o_food.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b3fb113f-d079-4b54-9ad7-da977ed32fc8",
+            "Value": {
+                "id": "8f5ea310-01b8-4060-ab52-fa459e5744c6",
+                "resourcePath": "sounds\\so_fikus_eat_2\\so_fikus_eat_2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -239,6 +295,14 @@
             }
         },
         {
+            "Key": "d66a40b8-85d2-4f91-8203-9d2c5c502d55",
+            "Value": {
+                "id": "4fe40e71-dd27-4114-a619-b3aaa399c052",
+                "resourcePath": "rooms\\r_lose\\r_lose.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "e2ca4ecc-cc99-41a2-8eb5-9edd7a9b50c1",
             "Value": {
                 "id": "ee313d06-d8eb-4f71-9ece-d7a2ebc1b57f",
@@ -251,6 +315,14 @@
             "Value": {
                 "id": "008d8948-e1a0-4797-90db-ec9454f7299e",
                 "resourcePath": "sounds\\so_robat\\so_robat.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "eaf3ea28-aba8-48ca-9b20-c0786424cb29",
+            "Value": {
+                "id": "b17d2cd9-0a96-4e67-a0ad-77143b55e6ac",
+                "resourcePath": "sounds\\so_fikus_lose\\so_fikus_lose.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -271,6 +343,14 @@
             }
         },
         {
+            "Key": "eec098d1-6d68-428b-b339-508ace7c33e4",
+            "Value": {
+                "id": "8e8372fe-2863-4f5b-90ef-90dbf05789a0",
+                "resourcePath": "sounds\\so_fikus_eat_0\\so_fikus_eat_0.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "f113d021-5910-4642-9e09-6caf849a6d7a",
             "Value": {
                 "id": "5f624398-01f9-4bac-adf6-0a8dec1771b7",
@@ -284,6 +364,14 @@
                 "id": "7f90f003-fcad-4af9-9705-7597af37bf21",
                 "resourcePath": "objects\\o_r_menu\\o_r_menu.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "f4157041-c498-4727-b654-760b909f856a",
+            "Value": {
+                "id": "c33116d4-e0e5-4ec9-a59a-9aa181cff6f5",
+                "resourcePath": "sounds\\so_fikus\\so_fikus.yy",
+                "resourceType": "GMSound"
             }
         },
         {
