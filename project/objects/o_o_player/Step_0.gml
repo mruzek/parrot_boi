@@ -1,37 +1,19 @@
 event_inherited();
-/*
-if (keyboard_check(vk_up)) {
-    motion_add(image_angle, accel)  
-}
 
-if (keyboard_check(KEY_DOWN) ) { //  && speed > 0 kinda check
-    motion_add(image_angle, -deccel) 
-}
-*/
+// detection whether position changed this step
+var positionChanged = false;
 
-speed = 0;
-var padding = 35;
+if (keyboard_check_pressed(vk_left) && currentPos != 0) {  
+    currentPos--;
+    positionChanged = true;  
+};
 
-// TODO: multiple keys priority
-if (keyboard_check(vk_left) && (x > padding)) {
-    speed = -o_speed;
-    
-    
-    if (!audio_is_playing(o_movesound)) {
-        audio_play_sound(o_movesound, 5, false)
-    }
-}
+if (keyboard_check_pressed(vk_right) && currentPos != 2) {
+    currentPos++
+    positionChanged = true;  
+};
 
-if (keyboard_check(vk_right) && (x < 400 - padding)) {
-    speed = o_speed;
-    
-    if (!audio_is_playing(o_movesound)) {
-        audio_play_sound(o_movesound, 5, false)
-    }
+// DRAW MOVE
+if(positionChanged) {  
+    x = colX[currentPos]
 }
-
-/*
-if (keyboard_check_pressed(KEY_SHOOT)) {
-    create_bullet(image_angle, bulletSpeed, faction);
-}
-*/

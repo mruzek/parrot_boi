@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_fikus",
-    "path": "sprites/s_fikus/s_fikus.yy",
+    "name": "s_fikus_blink",
+    "path": "sprites/s_fikus_blink/s_fikus_blink.yy",
   },
   "solid": false,
   "visible": true,

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "s_piskot",
-    "path": "sprites/s_piskot/s_piskot.yy",
+    "name": "s_food",
+    "path": "sprites/s_food/s_food.yy",
   },
   "solid": false,
   "visible": true,

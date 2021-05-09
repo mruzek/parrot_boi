@@ -1,6 +1,5 @@
-o_speed = 6;
 
 //nahodny psrite
 image_index = irandom(3);
-speed = o_speed;
+speed = GAME_SPEED;
 direction = 270;
